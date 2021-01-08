@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(68,68,68);
+    border: 5px solid rgb(119,119,119);
+    padding: 5%;
+    margin: 5%;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    border: 5px solid rgb(177, 1, 1)
+    padding 5%;
+    margin 5%;
+}
