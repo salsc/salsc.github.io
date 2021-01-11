@@ -1,8 +1,8 @@
 function openClose() {
     var x = document.getElementById("myNav");
-    if (x.className === "myNav") {
+    if (x.className === "nav") {
         x.className += " squishy";
     } else {
-        x.className = "myNav";
+        x.className = "nav";
     }
 }

@@ -28,6 +28,7 @@ main {
     display: block;
     color: rgb(0, 0, 0);
     text-align: center;
+    text-decoration: none;
     font-size: 18px;
     padding: 15px 15px;
 }
@@ -46,7 +47,7 @@ main {
     display: none;
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
     .nav a:not(:first-child) {
         display: none;
     }
@@ -55,6 +56,9 @@ main {
         float: right;
         display: block;
     }
+}
+
+@media screen and (max-width: 700px) {
     .nav.squishy {
         position: relative;
     }
