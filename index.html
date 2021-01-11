@@ -3,17 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Meet Scott Salsbery</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
         <h1>Scott Salsbery</h1>
         <h2>Welcome to my Portfolio!</h2>
-        <nav>
-            <a href="#">Main</a> | 
-            <a href="#">Main</a> |
-            <a href="#">Main</a>       
-        </nav>
+        <div class="nav" id="myNav">
+            <a href="#" class="active">Home</a>
+            <a href="#">Developer Journey</a>
+            <a href="#">Engineering Highlights</a>
+            <a href="#">Resume</a>
+            <div class="button">
+            <a href="javascript:void(0);" class="icon" onclick="openClose()">Menu</a>
+            </div>
+        </div>
     </header>
     <main>
         <h2>Content Title</h2>
